@@ -1,9 +1,13 @@
+import LandingPage from "./LandingPage"
 
 
 function App() {
 
   return (
-    <div className="text-blue-600">this is my fc</div>
+    <div className="">
+      <LandingPage/>
+    </div>
+    
   )
 }
 
