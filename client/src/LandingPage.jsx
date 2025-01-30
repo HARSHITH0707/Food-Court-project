@@ -18,7 +18,7 @@ function LandingPage() {
     {/* Main Section */}
     <div className="flex-grow flex flex-col justify-center items-center relative">
       {/* Food Items */}
-      <img src="/kashmir.jpg" className="absolute " alt="Pizza" />
+      <img src="/cb.png" className="absolute " alt="Pizza" />
       <img src="/kashmir.jpg" className="absolute " alt="Burger" />
       <img src="/kashmir.jpg" className="absolute " alt="Waffle" />
       <img src="/kashmir.jpg" className="absolute " alt="Biriyani" />
