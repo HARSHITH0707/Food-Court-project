@@ -28,7 +28,7 @@ function LandingPage() {
       <h1 className="text-orange-500 text-6xl font-bold">Biriyani</h1>
       <p className="text-gray-300 mt-3">Made by Chicken, Rice, and Spices</p>
       <img
-        src="/kashmir.jpg"
+        src="/mb.png"
         className="w-52 mt-5 rounded-lg shadow-lg"
         alt="Main Biriyani"
       />
