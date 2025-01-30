@@ -4,31 +4,30 @@ function LandingPage() {
   return (
     <div className="bg-black min-h-screen text-white flex flex-col items-center">
     {/* Navbar */}
-    <nav className="w-full flex justify-between items-center px-10 py-5 text-lg">
-      <h1 className="text-orange-500 text-2xl font-bold">GREENBITE</h1>
-      <ul className="flex space-x-10">
-        <li className="text-orange-500 cursor-pointer">Homepage</li>
-        <li className="cursor-pointer">Foods</li>
-        <li className="cursor-pointer">Today Offers</li>
-        <li className="cursor-pointer">Contact us</li>
-        <li className="cursor-pointer">About us</li>
-      </ul>
-    </nav>
+    <h1 style={{  color: "#ff3d00" }} className="text-orange-500 text-[50px] font-bold text-center mt-10">Food Court BVRIT</h1>
+      
+      <div  className="flex space-x-10 text-[20px] drop-shadow-xl p-[60px] ml-[50px] text-center justify-between ">
+        <div className="hover:text-orange-600 cursor-pointer mr-[100px]">Homepage</div>
+        <div className="hover:text-orange-600 cursor-pointer mr-[100px]">Foods</div>
+        <div className="hover:text-orange-600 cursor-pointer mr-[100px]">Today Offers</div>
+        <div className="hover:text-orange-600 cursor-pointer mr-[100px]">Contact us</div>
+        <div className="hover:text-orange-600 cursor-pointer mr-[100px]">About us</div>
+      </div>
 
     {/* Main Section */}
     <div className="flex-grow flex flex-col justify-center items-center relative">
       {/* Food Items */}
-      <img src="/cb.png" className="absolute " alt="Biriyani" />
+      {/* <img src="/cb.png" className="absolute " alt="Biriyani" />
       <img src="/mb.png" className="absolute " alt="Burger" />
       <img src="/pizza.png" className="absolute " alt="Pizza" />
-      <img src="/waffles.png" className="absolute " alt="Waffle" />
+      <img src="/waffles.png" className="absolute " alt="Waffle" /> */}
 
       {/* Centered Biriyani */}
-      <h2 className="text-gray-500 text-5xl font-bold">బిర్యానీ</h2>
-      <h1 className="text-orange-500 text-6xl font-bold">Biriyani</h1>
+      <h2 style={{  color: "#808080" }} className=" h-15 text-7xl font-bold drop-shadow-xl opacity-[.67]">బిర్యానీ</h2>
+      <h1 style={{  color: "#ff3d00" }} className=" text-6xl font-bold drop-shadow-l -mt-3">Biriyani</h1>
       <p className="text-gray-300 mt-3">Made by Chicken, Rice, and Spices</p>
       <img
-        src="/mb.png"
+        src="/cb.png"
         className="w-52 mt-5 rounded-lg shadow-lg"
         alt="Main Biriyani"
       />
