@@ -18,10 +18,10 @@ function LandingPage() {
     {/* Main Section */}
     <div className="flex-grow flex flex-col justify-center items-center relative">
       {/* Food Items */}
-      <img src="/cb.png" className="absolute " alt="Pizza" />
-      <img src="/kashmir.jpg" className="absolute " alt="Burger" />
-      <img src="/kashmir.jpg" className="absolute " alt="Waffle" />
-      <img src="/kashmir.jpg" className="absolute " alt="Biriyani" />
+      <img src="/cb.png" className="absolute " alt="Biriyani" />
+      <img src="/mb.png" className="absolute " alt="Burger" />
+      <img src="/pizza.png" className="absolute " alt="Pizza" />
+      <img src="/waffles.png" className="absolute " alt="Waffle" />
 
       {/* Centered Biriyani */}
       <h2 className="text-gray-500 text-5xl font-bold">బిర్యానీ</h2>
